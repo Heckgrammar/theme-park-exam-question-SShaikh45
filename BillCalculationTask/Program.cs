@@ -19,7 +19,20 @@
             // 2: 10 people
             // 3: 6 people
             // Commit your changes and add screnshot evidence of your program running to the Readme
-
+            
+            Console.WriteLine("How many people are visiting the theme park?");
+            int total_charge;
+            int group_num = Convert.ToInt32(Console.ReadLine());
+            if (group_num <=6)
+            {
+                total_charge = (15*group_num)- 5;
+                Console.WriteLine(total_charge);
+            }
+            else
+            {
+                total_charge = (15*group_num);
+                Console.WriteLine(total_charge);
+            }
         }
     }
 }
