@@ -23,7 +23,7 @@
             Console.WriteLine("How many people are visiting the theme park?");
             int total_charge;
             int group_num = Convert.ToInt32(Console.ReadLine());
-            if (group_num <=6)
+            if (group_num >=6)
             {
                 total_charge = (15*group_num)- 5;
                 Console.WriteLine(total_charge);
